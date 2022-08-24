@@ -1,0 +1,25 @@
+function ejercicio() {
+    let edad = parseInt(prompt("ingrese su edad"));
+    let nombre = prompt("ingrese su nombre");
+    let apellido = prompt("ingrese su apellido");
+
+    alert("el nombre del usuario es : "+ nombre);
+}
+
+function ejercicioTwo() {
+    let edad = parseInt(prompt("ingrese su edad"));
+    let nombre = prompt("ingrese su nombre");
+    let apellido = prompt("ingrese su apellido");
+
+    document.write("el nombre del usuario es : "+ nombre + "<br>");
+    document.write("la edad del usuario es : "+ edad);
+}
+
+function ejercicioThree() {
+    let sueldo = parseInt(prompt("ingrese su sueldo"));
+    let bonus = parseFloat(prompt("ingrese su bono"));
+    let resultado = sueldo + bonus;
+
+    document.write("el resultado final de tu sueldo es : "+ resultado);
+}
+
